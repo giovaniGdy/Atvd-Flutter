@@ -99,7 +99,6 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   void dispose() {
-    // Clean up the controller when the widget is disposed.
     username.dispose();
     password.dispose();
     super.dispose();
